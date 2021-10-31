@@ -5,7 +5,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className={styles.container} className="bg-gray-900">
+    <div className="min-h-screen bg-gray-900">
       <Head>
         <title>JAWS PANKRATION 2021</title>
         <meta name="description" content="JAWS PANKRATION 2021" />
@@ -29,14 +29,14 @@ export default function Home() {
       <main className={styles.main}>
         <video id="video-player" width="1000" height="700" controls playsInline className="px-8"></video>
 
-        <div className={styles.grid} className="text-white">
+        <div className="text-white">
           {/* TODO: fetch watching count data */}
           123 waching
         </div>
       </main>
 
-      <footer className={styles.footer}>
-      </footer>
+      {/* <footer className={styles.footer}>
+      </footer> */}
     </div>
   )
 }
