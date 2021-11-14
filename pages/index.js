@@ -28,11 +28,6 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <video id="video-player" width="1000" height="700" controls playsInline className="px-8"></video>
-
-        <div className="text-white">
-          {/* TODO: fetch watching count data */}
-          123 waching
-        </div>
       </main>
 
       {/* <footer className={styles.footer}>
