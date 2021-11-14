@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
-import videojs from "video.js";
-import "video.js/dist/video-js.css";
+import videojs from 'video.js';
+import 'video.js/dist/video-js.css';
 
 export default function Home() {
   return (
@@ -12,9 +12,10 @@ export default function Home() {
         <title>JAWS PANKRATION 2021</title>
         <meta name="description" content="JAWS PANKRATION 2021" />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://player.live-video.net/1.2.0/amazon-ivs-videojs-tech.min.js"></script>
-        <script src="https://player.live-video.net/1.2.0/amazon-ivs-quality-plugin.min.js"></script>
       </Head>
+
+      <Script src = "https://player.live-video.net/1.2.0/amazon-ivs-quality-plugin.min.js" />
+      <Script src = "https://player.live-video.net/1.2.0/amazon-ivs-videojs-tech.min.js" />
       <Script
         src = "https://player.live-video.net/1.5.0/amazon-ivs-player.min.js"
         strategy="afterInteractive"
