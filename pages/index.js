@@ -43,7 +43,7 @@ export default function Home() {
         <Image src="/jawspankration_main-image.png" alt="JAWS PANKRATION header" width={1440} height={230} />
       </header>
       <main className={styles.main}>
-        <video id="video-player" width="1000" height="700" controls playsInline autoPlay className="px-8 video-js vjs-big-play-centered"></video>
+        <video id="video-player" width="1000" height="700" controls playsInline autoPlay className="px-8 w-11/12 xl:w-7/12 h-200px sm:h-400px xl:h-600px video-js vjs-big-play-centered"></video>
       </main>
 
       {/* <footer className={styles.footer}>
